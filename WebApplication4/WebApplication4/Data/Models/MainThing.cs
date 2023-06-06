@@ -5,13 +5,10 @@ using System.Threading.Tasks;
 
 namespace WebApplication4.Data.Models
 {
-    public class errorss
+    public class MainThing
     {
-        public string? module { get; set; }
-        public int? ecode { get; set; }
-        public string? error { get; set; }
+        public scanInfo scan { get; set; }
 
-
-
+        public Files[] files { get; set; }
     }
 }

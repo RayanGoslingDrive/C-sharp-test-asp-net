@@ -10,9 +10,9 @@ namespace WebApplication4.Data.Models
         public string filename { get; set; }
         public bool result { get; set; }
 
-        public IList<errorss> errors { get; set; }
+        public errorss[] errors { get; set; }
 
-        public DateTimeOffset scantime { get; set; }
+        public DateTimeOffset? scantime { get; set; }
     }
 
 }
